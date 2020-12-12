@@ -29,11 +29,11 @@ public class Zoo {
         animals.add(new Pig("Dora"));
         animals.add(new Tiger("Wally"));
         animals.add(new Zebra("Marty"));
-        animals.add(new Panda("remco"));
-        animals.add(new Hyena("lili"));
+        animals.add(new Panda("Remco"));
+        animals.add(new Hyena("Lili"));
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Voer uw command in: ");
+        System.out.print("Voer uw commando in: ");
         String input = scanner.nextLine();
 
         if (input.equals(commands[0])) {
